@@ -13,7 +13,7 @@ conquer_kola = {
 		is_year = 1444
 		1777 = {
 			NOT = {
-				owned_by = ROOT
+				owned_by = FROM
 				owner = {
 					NOT = { alliance_with = ROOT }
 				}
@@ -84,7 +84,7 @@ liberate_kindred = {
 		is_at_war = no
 		34 {
 			NOT = {
-				owned_by = ROOT
+				owned_by = FROM
 				owner = {
 					NOT = { alliance_with = ROOT }
 					}

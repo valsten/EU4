@@ -1,4 +1,4 @@
-#4152 - Kuusamo incl Maanselkï¿½ and Kitka
+#4152 - Kuusamo incl Maanselkä and Kitka
 
 owner = FIN
 controller = FIN
@@ -7,12 +7,11 @@ add_core = FIN
 culture = finnish
 religion = catholic
 hre = no
-base_tax = 1
-base_production = 1
-trade_goods = fur
+base_tax = 2
+base_production = 2
+trade_goods = iron
 base_manpower = 1
-add_local_autonomy = 80
-capital = "Maanselkï¿½"
+capital = "Maanselkä"
 is_city = yes
 discovered_by = eastern
 discovered_by = western
