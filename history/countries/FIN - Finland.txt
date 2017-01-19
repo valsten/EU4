@@ -1,0 +1,17 @@
+government = feudal_monarchy
+government_rank = 1
+technology_group = western
+religion = catholic
+primary_culture = finnish
+add_accepted_culture = swedish
+historical_friend = GER SWE
+capital = 28	# Nyland
+
+monarch = {
+    name = "Frederik I" # This defines the name of the ruler
+    dynasty = "Kaarle" # This defines the dynasty of the ruler. This isn't required however.
+    birth_date = "1350.6.27" # Defines the birth date of the ruler. Used by the game to work out the age of the monarch.
+    adm = 5 # Defines the ADM skill of the ruler
+    dip = 3 # Defines the DIP skill of the ruler
+    mil = 4 # Defines the MIL skill of the ruler
+}
