@@ -162,3 +162,57 @@ liberate_kindred = {
 	}
 }
 }
+
+develop_kola = {
+
+	type = our_provinces
+
+	category = ADM
+	ai_mission = yes
+
+	allow = {
+		normal_or_historical_nations = yes
+		tag = FIN
+		is_subject = no
+		is_at_war = no
+		is_year = 1450
+		1777 = {
+			owned_by = ROOT
+		}
+	}
+	abort = {
+		is_subject = yes
+		is_at_war = yes
+		1777 = {
+			NOT {
+				owned_by = ROOT
+			}
+		}
+	}
+	success = {
+		1777 = {
+			development = 8
+		}
+		is_core = 1777
+	}
+	chance = {
+		factor = 3000
+	}
+	abort_effect = {
+		add_province_modifier = {
+			name = trade_collapse
+			}
+	}
+	effect = {
+		1777 = {
+			add_province_modifier = {
+				name = "production_improvements"
+				duration = 3650
+			}
+		}
+		add_country_modifier = {
+			name = "boom_economy"
+			duration = 3650
+		}
+	}
+}
