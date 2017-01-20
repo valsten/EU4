@@ -161,3 +161,4 @@ liberate_kindred = {
 		}
 	}
 }
+}
