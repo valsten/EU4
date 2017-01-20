@@ -9,11 +9,11 @@ historical_friend = SWE
 capital = 28	# Nyland
 
 
-1350.6.27 {
+1443.6.27 {
   monarch = {
       name = "Frederik I"
       dynasty = "Kaarle"
-      birth_date = "1443.6.27"
+      birth_date = "1419.6.27"
       adm = 5
       dip = 3
       mil = 4

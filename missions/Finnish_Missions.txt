@@ -98,6 +98,7 @@ liberate_kindred = {
 			}
 		}
 	}
+	}
 	abort = {
 		is_subject = yes
 	}

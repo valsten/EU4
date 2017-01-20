@@ -1,4 +1,4 @@
-﻿l_english:
+l_english:
  BOLD:0 "Bold"
  CAUTIOUS:0 "Cautious"
  EMBARGO_AGAINST:0 "$WHO$ is embargoing $AGAINST$."
@@ -8001,7 +8001,3 @@
  high_american_dragoonDESCR:0 "The American Dragoon is armed with swords and full-sized Xoloti. While they can engage in horseback melee combat, they much prefer to dismount and take the enemy under fire."
  PEACE_END_RIVALRY:0 "End Rivalry"
  END_RIVALRY_TOOLTIP:0 "$GIVER|Y$ are forced to remove $TAKER|Y$ as their Rival."
- liberate_kindred_title:0 "Liberate Kindred People"
- liberate_kindred_desc:0 "Our newly formed nation's military is unproven and inexperienced. Liberating the kindred people of Neva and Ingria would be an excellent test of our military power."
- conquer_kola_title:0 "Gain access to White Sea through Kola"
- conquer_kola_desc:0 "Conquering Kola for our new nations would give us access to the White Sea, and improve our trade."
