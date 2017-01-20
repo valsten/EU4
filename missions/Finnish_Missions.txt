@@ -180,7 +180,7 @@ liberate_kindred = {
 
 develop_kola = {
 
-	type = our_provinces
+	type = country
 
 	category = ADM
 	ai_mission = yes

@@ -1,0 +1,54 @@
+# Reforming the Army of the Grand Duchy
+namespace = flavor_fin
+country_event = {
+	id = flavor_fin.1
+	title = "fin_military_reform_title"
+	desc = "fin_military_reform_desc"
+	picture = LAND_MILITARY_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = FIN
+		is_subject = no
+    is_at_war = no
+    is_year = 1448
+	}
+
+	mean_time_to_happen = {
+		months = 24
+		modifier = {
+      factor 0.3
+      last_mission = liberate_kindred
+    }
+    modifier = {
+      factor = 0.8
+      MIL = 5
+    }
+	}
+
+
+	option = {		# Introduce Conscription
+		name = "FIN_CONSCRIPTION"
+		ai_chance = { factor = 15 }
+		add_country_modifier = {
+			name = finnish_military_reforms
+			duration = -1
+		}
+	}
+	option = {		# Defensive Focus
+		name = "FIN_DEFENSE"
+		ai_chance = { factor = 80 }
+		add_country_modifier = {
+			name = finnish_defense_focus
+			duration = -1
+		}	}
+	option = {		# Expand the Navy
+		name = "FIN_NAVY"
+		ai_chance = { factor = 5 }
+		add_country_modifier = {
+			name = finnish_naval_reforms
+			duration = -1
+		}
+	}
+}

@@ -1,0 +1,19 @@
+finnish_military_reforms = {
+	mil_tech_cost_modifier = -0.10
+	land_morale = 0.20
+	discipline = 0.05
+	infantry_cost = -0.15
+}
+
+finnish_defense_focus = {
+  mil_tech_cost_modifier = -0.10
+  defensiveness = 0.25
+  fort_maintenance_modifier = 0.10
+}
+
+finnish_naval_reforms = {
+  naval_morale = 0.20
+  dip_tech_cost_modifier = -0.10
+  naval_maintenance_modifier = -0.05
+  light_ship_cost = 0.10
+}
