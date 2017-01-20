@@ -102,8 +102,12 @@ liberate_kindred = {
 		is_subject = yes
 	}
 	success = {
-		owns = 33
-		owns = 34
+		33 = {
+			owned_by = ROOT
+		}
+		34 = {
+			owned_by = ROOT
+		}
 	}
 	chance = {
 		factor = 1000
@@ -148,12 +152,22 @@ liberate_kindred = {
 				remove_claim = ROOT
 			}
 		}
+		add_prestige = -10
+		add_stability = -1
 	}
 	effect = {
 		add_prestige = 10
-		add_province_modifier = {
-			name = "faster_integration"
-			duration = 3650
+		34 = {
+			add_province_modifier = {
+				name = "faster_integration"
+				duration = 3650
+			}
+		}
+		33 = {
+			add_province_modifier = {
+				name = "faster_integration"
+				duration = 3650
+			}
 		}
 		add_country_modifier = {
 			name = "army_reform"

@@ -13,8 +13,8 @@ capital = 28	# Nyland
   monarch = {
       name = "Frederik I"
       dynasty = "Kaarle"
-      birth_date = "1350.6.27"
-      adm = 5 
+      birth_date = "1443.6.27"
+      adm = 5
       dip = 3
       mil = 4
       }
