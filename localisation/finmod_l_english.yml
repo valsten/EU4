@@ -13,3 +13,8 @@
  finnish_military_reforms:0 "Introduced Conscription"
  finnish_defense_focus:0 "Focused on Defense"
  finnish_naval_reforms:0 "Expanded the Navy"
+ finnish_ahvenanmaa_shipyard:0 "Ahvenanmaa Shipyard"
+ finnish_shipyard.t:0 "Building a Naval Shipyard in Ahvenanmaa"
+ finnish.shipyard.d:0 "Some locals living in Ahvenanmaa have come forward and offered to begin construction on a Naval Shipyard in the island. A Shipyard in the island would be highly beneficial for us, as the Island is located in a very strategic location in the Baltic Sea."
+ finnish.shipyard.a:0 "Build it!"
+ finnish.shipyard.b:0 "Refuse the offer."

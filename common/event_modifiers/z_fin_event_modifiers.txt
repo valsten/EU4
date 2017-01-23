@@ -17,3 +17,9 @@ finnish_naval_reforms = {
   naval_maintenance_modifier = -0.05
   light_ship_cost = 0.10
 }
+
+finnish_ahvenanmaa_shipyard = {
+	naval_morale = 0.10
+	navy_tradition = 0.10
+	global_ship_cost = -0.10
+}

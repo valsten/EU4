@@ -52,3 +52,65 @@ country_event = {
 		}
 	}
 }
+
+#Ahvenanmaa Naval Shipyards
+namespace = flavor_fin
+country_event = {
+	id = flavor_fin.2
+	title = "finnish_shipyard.t"
+	desc = "finnish_shipyard.d"
+	picture = HARBOUR_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = FIN
+		is_subject = no
+    is_at_war = no
+    adm_tech = 6
+		is_core = 1930
+		OR {
+			1930 = {
+				has_building = shipyard
+				}
+			1930 = {
+				has_building = grand_shipyard
+				}
+		}
+	}
+}
+
+	mean_time_to_happen = {
+		months = 24
+		modifier = {
+      factor 0.3
+    }
+    modifier = {
+      factor = 0.8
+      DIP = 5
+    }
+	}
+
+
+	option = {		# Build it!
+		name = "finnish_shipyard.a"
+		ai_chance = { factor = 95 }
+		add_dip_power = -50
+		1930 = {
+		add_building_construction = {
+		building = shipyard
+		speed 1.0
+		cost = 0.5
+		}
+		}
+		add_country_modifier = {
+			name = finnish_ahvenanmaa_shipyard
+			duration = 3650
+		}
+	}
+	option = {		# Refuse
+		name = "finnish_shipyard.b"
+		ai_chance = { factor = 5 }
+		add_army_tradition = 10
+	}
+}
